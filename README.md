@@ -6,6 +6,7 @@ In order to run this, you will need the following installed:
   - JDK
   - ANT
   - Jenkins
+
 Once those 3 are properly installed, go to your browser and go to "localhost:[INSERT THE PORT NUMBER YOU CHOSE WHEN YOU SET UP JENKINS]".
 Once you're signed in, click on the "New Item" option on the left. Name your project -call it whatever you want, it doesn't matter- and click on the "Freestyle Project" option. Give your project a description. 
 Under "Source Code Management", cloose the Git option and enter the url of this repository. Make sure you change the root directory to main instead of master.
@@ -20,4 +21,3 @@ USEFUL RESOURCES
 - https://www.codingninjas.com/codestudio/library/junit-plugin-with-apache-ant
 - https://www.tutorialspoint.com/ant/index.htm
 - https://ant.apache.org/manual/using.html
-- 
